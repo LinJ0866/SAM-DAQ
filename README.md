@@ -19,19 +19,6 @@ We propose **SAM-DAQ**, which adapts SAM for fully automatic segmentation by sea
 - 🧩 **Query-Based Memory:** provides efficient online temporal modeling.
 
 
-## ⏳ Code Availability
-
-The **source code and checkpoints** will be released **before December 31, 2025**.  
-Please stay tuned or ⭐ star this repository to receive updates.
-
-🔔 **Release plan:**
-
-- [x] Paper accepted at AAAI 2026
-- [x] Publish the preprint version of the paper
-- [x] Clean up experimental code  
-- [ ] Release training and inference pipelines  
-- [x] Provide pretrained checkpoints
-
 ## ⚡ Start
 
 ### prepare dataset
@@ -47,6 +34,11 @@ Please stay tuned or ⭐ star this repository to receive updates.
 - Models we provided: [夸克网盘](https://pan.quark.cn/s/d62d908c01ec), [Google Drive](https://drive.google.com/drive/folders/1lfnxN7t-woV8jo-nG83elNPvJCUUDbSd?usp=drive_link)
 
 
+### train and test
+
+Use `scripts/train.sh` and `scripts/test.sh` to train and inference separately.
+
+The evaluation tool [(DVSOD/DVSOD-Evaluation)](https://github.com/DVSOD/DVSOD-Evaluation) is used to measure all saliency results.
 
 ## Benchmark Results
 
@@ -58,3 +50,16 @@ The benchmark results of our work can be accessed in:
 ## Acknowledgement
 
 The work is based on [MemSAM](https://github.com/dengxl0520/MemSAM) and [SAM2](https://github.com/facebookresearch/sam2). Thanks for the open source contributions to these efforts!
+
+## Citation
+
+if you find our work useful, please cite our paper, thank you!
+
+```
+@article{lin2025sam,
+  title={SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection},
+  author={Lin, Jia and Zhou, Xiaofei and Liu, Jiyuan and Cong, Runmin and Zhang, Guodao and Liu, Zhi and Zhang, Jiyong},
+  journal={arXiv preprint arXiv:2511.09870},
+  year={2025}
+}
+```
