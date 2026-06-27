@@ -4,7 +4,7 @@
 > by [*Jia Lin*](mailto:lin_j@hdu.edu.cn), [*Xiaofei Zhou*](mailto:zxforchid@outlook.com), *Jiyuan Liu*, *Runmin Cong*, *Guodao Zhang*, [*Zhi Liu*](mailto:liuzhisjtu@163.com) and *Jiyong Zhang*  
 > Accepted at **AAAI Conference on Artificial Intelligence (AAAI 2026), Poster Track**
 
-📑 [Paper (arxiv)](https://arxiv.org/abs/2511.09870) | 🌐 [Project Page](https://github.com/LinJ0866/SAM-DAQ)
+📑 [Paper (AAAI)](https://ojs.aaai.org/index.php/AAAI/article/view/37629) | 📑 [Paper (arxiv)](https://arxiv.org/abs/2511.09870) | 🌐 [Project Page](https://github.com/LinJ0866/SAM-DAQ)
 
 ## 🧠 Overview
 
@@ -56,6 +56,16 @@ The work is based on [MemSAM](https://github.com/dengxl0520/MemSAM) and [SAM2](h
 if you find our work useful, please cite our paper, thank you!
 
 ```
+@inproceedings{lin2026sam,
+  title={SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection},
+  author={Lin, Jia and Zhou, Xiaofei and Liu, Jiyuan and Cong, Runmin and Zhang, Guodao and Liu, Zhi and Zhang, Jiyong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={9},
+  pages={6952--6960},
+  year={2026}
+}
+
 @article{lin2025sam,
   title={SAM-DAQ: Segment Anything Model with Depth-guided Adaptive Queries for RGB-D Video Salient Object Detection},
   author={Lin, Jia and Zhou, Xiaofei and Liu, Jiyuan and Cong, Runmin and Zhang, Guodao and Liu, Zhi and Zhang, Jiyong},
